@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Url Launched.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On Sign In Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Window 1 is :- CDwindow-AD27F126982388599B73A796BE4B31DE<br>]]>
+    </line>
+    <line>
+      <![CDATA[window is now switching<br>]]>
+    </line>
+    <line>
+      <![CDATA[Window 2 is :- CDwindow-AD27F126982388599B73A796BE4B31DE<br>]]>
+    </line>
+    <line>
+      <![CDATA[Window 2 is :- CDwindow-3D2F36B08ED67F584FAACD0C7E44ABBC<br>]]>
+    </line>
+    <line>
+      <![CDATA[Switched to Window 2 is :- CDwindow-3D2F36B08ED67F584FAACD0C7E44ABBC<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On Continue with Facebook Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entered Email : qa1.scenario@gmail.com<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entered Password : Test@123<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On Login Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On Like Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On Dis-Like Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On Profile Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On Logout<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On Logout Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[USer Logged Out<br>]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Login_And_LogOut
+<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-04-07T18:16:33 IST" name="Login Functionality" finished-at="2023-04-07T18:17:21 IST" duration-ms="48753">
+    <groups>
+    </groups>
+    <test started-at="2023-04-07T18:16:33 IST" name="Launch Application : Verify Application is launched" finished-at="2023-04-07T18:17:21 IST" duration-ms="48753">
+      <class name="Tests.Login_Test">
+        <test-method is-config="true" signature="init()[pri:0, instance:Tests.Login_Test@436a4e4b]" started-at="2023-04-07T18:16:33 IST" name="init" finished-at="2023-04-07T18:16:36 IST" duration-ms="3694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="Login_And_LogOut()[pri:0, instance:Tests.Login_Test@436a4e4b]" started-at="2023-04-07T18:16:36 IST" name="Login_And_LogOut" finished-at="2023-04-07T18:17:21 IST" duration-ms="44776" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Url Launched.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked On Sign In Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Window 1 is :- CDwindow-AD27F126982388599B73A796BE4B31DE<br>]]>
+            </line>
+            <line>
+              <![CDATA[window is now switching<br>]]>
+            </line>
+            <line>
+              <![CDATA[Window 2 is :- CDwindow-AD27F126982388599B73A796BE4B31DE<br>]]>
+            </line>
+            <line>
+              <![CDATA[Window 2 is :- CDwindow-3D2F36B08ED67F584FAACD0C7E44ABBC<br>]]>
+            </line>
+            <line>
+              <![CDATA[Switched to Window 2 is :- CDwindow-3D2F36B08ED67F584FAACD0C7E44ABBC<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked On Continue with Facebook Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entered Email : qa1.scenario@gmail.com<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entered Password : Test@123<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked On Login Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked On Like Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked On Dis-Like Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked On Profile Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked On Logout<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked On Logout Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[USer Logged Out<br>]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Login_And_LogOut
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_And_LogOut -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.Login_Test@436a4e4b]" started-at="2023-04-07T18:17:21 IST" name="tearDown" finished-at="2023-04-07T18:17:21 IST" duration-ms="241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_And_LogOut status=SUCCESS method=Login_Test.Login_And_LogOut()[pri:0, instance:Tests.Login_Test@436a4e4b] output=Url Launched.<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.Login_Test -->
+    </test> <!-- Launch Application : Verify Application is launched -->
+  </suite> <!-- Login Functionality -->
+</testng-results>
